@@ -16,3 +16,9 @@ body {
   margin-bottom: 10px;
 }
 
+iframe {
+  overflow: hidden;
+  border: none;
+  width: 300px;
+  height: 300px;
+}

@@ -1,6 +1,6 @@
 .adcontainer {
-    width: 300px;
-    height: 300px;
+    width: 200px;
+    height: 200px;
     position: relative;
     -webkit-perspective: 900px;
     -moz-perspective: 900px;
@@ -43,7 +43,7 @@
     -moz-transform: rotateY( 180deg );
     -o-transform: rotateY( 180deg );
     transform: rotateY( 180deg );
-    font-size: 18px;
+    font-size: 12px;
 }
 .card.flipped {
     -webkit-transform: rotateY( 180deg );
