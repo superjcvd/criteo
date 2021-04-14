@@ -1,0 +1,103 @@
+.adcontainer {
+    width: 300px;
+    height: 300px;
+    position: relative;
+    -webkit-perspective: 900px;
+    -moz-perspective: 900px;
+    -o-perspective: 900px;
+    perspective: 900px;
+}
+.card {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    -webkit-transition: -webkit-transform 1s;
+    -moz-transition: -moz-transform 1s;
+    -o-transition: -o-transform 1s;
+    transition: transform 1s;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -o-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+}
+.card div {
+    display: block;
+    height: 100%;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-weight: bold;
+    font-size: 12px;
+    position: absolute;
+    -webkit-backface-visibility: hidden;
+    -moz-backface-visibility: hidden;
+    -o-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+.card .front {
+  background: transparent;
+}
+.card .back {
+    background: mediumseagreen;
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.card.flipped {
+    -webkit-transform: rotateY( 180deg );
+    -moz-transform: rotateY( 180deg );
+    -o-transform: rotateY( 180deg );
+    transform: rotateY( 180deg );
+}
+.ecolabel {
+    position: absolute;
+    left: var(--left, 2px);
+    bottom: var(--bottom, 2px);
+}
+.optout {
+    position: absolute;
+    right: var(--right, 2px);
+    top: var(--top, 2px);
+}
+.adchoices {
+    position: absolute;
+    right: var(--right, 17px);
+    top: var(--top, 2px);
+}
+.survey {
+    visibility: hidden;
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    text-align: center;
+    background-color: #ff8100;
+}
+.surveyx {
+    position: absolute;
+    color: #848484;
+    padding: 4px;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+.survey_button {
+    padding: 4px 10px;
+    width: 120px;
+    height: 40px;
+    font-size: 14px;
+    border-radius: 8px;
+    border: 1px solid #848484;
+    margin: 30px 19px 0;
+    text-decoration: none;
+    user-select: none;
+    cursor: pointer;
+}
+.survey_orange {
+    color: white;
+    background-color: #ff8100;
+}
+.survey_white {
+    color: #848484;
+    background-color: white;
+}
