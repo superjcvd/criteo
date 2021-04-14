@@ -12,21 +12,27 @@
     <script src="js/script.js"></script>
 </head>
 <body>
-    <div class="header">
-
-        
 
     <section class="adcontainer">
         <div class="card">
             <div class="front">
-                <img src="img/eco-ad-example.jpg" alt="" style="width:300px;height:300px;">
+                <img src="img/eco-friendly.png" alt="" style="width:300px;height:300px;">
                 <img class="ecolabel" src="img/eco-label.png" alt="" style="width:64px;height:64px;" onclick="flip()">
                 <img class="adchoices" src="img/privacy_small.svg" alt="" onclick="optout_show()">
                 <img class="optout" src="img/close_button.svg" alt="" onclick="optout_show()">
             </div>
             <div class="back" onclick="flip()">
-                <p>This is a green ad</p>
-                <p>ECO score A</p>
+                <p>
+                Congratulation<br>
+                This product is<br>
+                "ECO Friendly"
+                </p>
+                <img src="img/eco-score-a.png" alt="">
+                <p>
+                    <a class="survey_button survey_green" href="#greenad">
+                        <span>Want more green?</span>
+                    </a>
+                </p>
             </div>
         </div>
         <div class="survey" onclick="optout_hide()">
@@ -40,7 +46,7 @@
             </div>
             <div class="survey_item">
                 <a class="survey_button survey_green" href="#greenad">
-                    <span>Want more green?</span>
+                    <span>Want to know more?</span>
                 </a>
             </div>
             <div class="survey_item">
