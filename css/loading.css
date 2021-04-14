@@ -1,0 +1,14 @@
+#bar {
+    width: 100%;
+    background-color: #ddd;
+}
+
+#loading {
+    width: 0%;
+    height: 30px;
+    background-color: #4CAF50;
+}
+
+.score {
+    display: none;
+}
