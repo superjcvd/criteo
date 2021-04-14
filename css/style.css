@@ -69,33 +69,35 @@
     visibility: hidden;
     width: 100%;
     height: 100%;
-    position: absolute;
-    text-align: center;
-    background-color: #ff8100;
-}
-.surveyx {
-    position: absolute;
+
+    background-color: #f4f3f3;
     color: #848484;
-    padding: 4px;
-    display: flex;
-    flex-direction: column;
-    text-align: center;
+    font-family: "Century Gothic", Verdana;
+
+    display: grid;
+
 }
 .survey_button {
-    padding: 4px 10px;
-    width: 120px;
-    height: 40px;
+    padding: 10px 20px;
+    width: 1000px;
     font-size: 14px;
     border-radius: 8px;
     border: 1px solid #848484;
-    margin: 30px 19px 0;
+    text-align: center;
     text-decoration: none;
     user-select: none;
     cursor: pointer;
 }
+.survey_item {
+    text-align: center;
+}
 .survey_orange {
     color: white;
     background-color: #ff8100;
+}
+.survey_green {
+    color: white;
+    background-color: mediumseagreen;
 }
 .survey_white {
     color: #848484;
